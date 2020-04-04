@@ -1,0 +1,105 @@
+{
+  "Quest": [
+    {
+      "question": "rate this?",
+      "options": [
+        {
+          "optNo": "A",
+          "optVal": "1"
+        },
+        {
+          "optNo": "B",
+          "optVal": "2"
+        },
+        {
+          "optNo": "C",
+          "optVal": "3"
+        }
+      ],
+      "answer": [
+         "A"
+      ]
+    },
+    {
+      "question": "question2?",
+      "options": [
+        {
+          "optNo": "A",
+          "optVal": "cow"
+        },
+        {
+          "optNo": "B",
+          "optVal": "dog"
+        },
+        {
+          "optNo": "C",
+          "optVal": "cat"
+        }
+      ],
+      "answer": [
+        "A"
+      ]
+    },
+    {
+      "question": "question3?",
+      "options": [
+        {
+          "optNo": "A",
+          "optVal": "cow"
+        },
+        {
+          "optNo": "B",
+          "optVal": "dog"
+        },
+        {
+          "optNo": "C",
+          "optVal": "cat"
+        }
+      ],
+      "answer": [
+        1
+      ]
+    },
+    {
+      "question": "question4?",
+      "options": [
+        {
+          "optNo": "A",
+          "optVal": "cow"
+        },
+        {
+          "optNo": "B",
+          "optVal": "dog"
+        },
+        {
+          "optNo": "C",
+          "optVal": "cat"
+        }
+      ],
+      "answer": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "question5?",
+      "options": [
+        {
+          "optNo": "A",
+          "optVal": "cow"
+        },
+        {
+          "optNo": "B",
+          "optVal": "dog"
+        },
+        {
+          "optNo": "C",
+          "optVal": "cat"
+        }
+      ],
+      "answer": [
+        2
+      ]
+    }
+  ]
+}

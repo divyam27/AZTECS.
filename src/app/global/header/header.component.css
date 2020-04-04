@@ -1,0 +1,16 @@
+.h1{
+size: 1%;
+margin: 10px;
+}
+
+.h2{
+    
+    position: absolute;
+    right: 10px;
+   }
+
+   a{
+       text-decoration: none;
+        color: black;
+        font-weight: bolder;
+}

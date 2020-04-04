@@ -1,0 +1,23 @@
+<mat-card class="formcard">
+  <mat-card-header>
+    <mat-card-title>Login Form</mat-card-title>
+  </mat-card-header>
+
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+    <mat-form-field  appearance="fill">
+      <mat-label>Enter user name</mat-label>
+      <input matInput placeholder="User Name" formControlName="userName" 
+      autocomplete="off"> 
+      <mat-error *ngIf="loginForm.invalid">email is required</mat-error>
+    </mat-form-field>
+    <mat-form-field  appearance="fill">
+      <mat-label>Enter password</mat-label>
+      <input matInput placeholder="password" formControlName="password" type="password">
+      <mat-error *ngIf="loginForm.invalid">Password is required</mat-error>
+    </mat-form-field>
+
+    <button  mat-raised-button color="primary" [disabled]="loginForm.invalid">LogIn</button>
+
+    
+  </form>
+</mat-card>

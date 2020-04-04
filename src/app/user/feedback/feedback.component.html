@@ -1,0 +1,16 @@
+<div *ngFor="let Question  of feedbackForm; let question_index =index">
+    <mat-card class="c1">
+
+        <p>{{question_index+1}}. {{Question.question}}</p>
+        <div *ngFor="let option of Question.options ; let option_index =index">
+            <p>
+                {{option.optNo}} 
+                <input  [name]="'q'+(question_index+1)"
+                [type]="Question.answer.length > 1 ? 'checkbox' : 'radio'" [value]="option.optNo" [attr.checked]="checkResult(question_index,option.optNo)?'' :null"disabled />{{option.optVal}}
+            </p>
+        </div>
+    </mat-card>
+</div>
+<button class="c2" mat-flat-button color="primary" [disabled]="feedbackForm.invalid">Submit</button>
+
+
